@@ -1,2 +1,2 @@
-# curso_docker
-Curso Docker Introducción
+# Introducción a  Docker
+Curso "Introducción a docker"
