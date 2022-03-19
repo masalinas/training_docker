@@ -8,16 +8,16 @@ parent: Escenarios multicontenedor
 
 En este ejemplo vamos a desplegar con docker-compose la aplicación *guestbook*, que estudiamos en el módulo de redes: [Ejemplo 1: Despliegue de la aplicación Guestbook](../sesion4/guestbook.html).
 
-Puedes encontrar el fichero `docker-compose.yml` en en este [directorio](https://github.com/iesgn/curso_docker_2021/tree/main/ejemplos/sesion5/ejemplo1) del repositorio. 
+Puedes encontrar el fichero `docker-compose.yml` en en este [directorio](https://github.com/masalinas/curso_docker_2021/tree/main/ejemplos/sesion5/ejemplo1) del repositorio.
 
-En el fichero `docker-compose.yml` vamos a definir el escenario. El programa `docker-compose` se debe ejecutar en el directorio donde este ese fichero. 
+En el fichero `docker-compose.yml` vamos a definir el escenario. El programa `docker-compose` se debe ejecutar en el directorio donde este ese fichero.
 
 ```yaml
 version: '3.1'
 services:
   app:
     container_name: guestbook
-    image: iesgn/guestbook
+    image: masalinas/guestbook
     restart: always
     ports:
       - 80:5000
@@ -49,7 +49,7 @@ redis       docker-entrypoint.sh redis ...   Up      6379/tcp
 Para parar los contenedores:
 
 ```bash
-$ docker-compose stop 
+$ docker-compose stop
 Stopping guestbook    ... done
 Stopping redis ... done
 ```
@@ -64,6 +64,3 @@ Removing guestbook ... done
 Removing redis     ... done
 Removing network guestbook_default
 ```
-
-
-

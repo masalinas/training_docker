@@ -9,7 +9,7 @@ parent: Redes
 
 En este ejemplo vamos a desplegar una aplicación web que requiere de dos servicios (servicio web y servicio de base de datos) para su ejecución. La aplicación se llama GuestBook y necesita los dos siguientes servicios:
 
-* La aplicación guestbook es una aplicación web desarrollada en python que es servida por el puerto 5000/tcp. Utilizaremos la imagen `iesgn/guestbook`.
+* La aplicación guestbook es una aplicación web desarrollada en python que es servida por el puerto 5000/tcp. Utilizaremos la imagen `masalinas/guestbook`.
 * Esta aplicación guarda la información en una base de datos no relacional redis, que utiliza el puerto 6379/tcp para conectarnos. Usaremos la imagen `redis`.
 
 La aplicación guestbook por defecto utiliza el nombre `redis` para conectarse a la base de datos, por lo tanto debemos nombrar al contenedor redis con ese nombre para que tengamos una resolución de nombres adecuada.
@@ -25,7 +25,7 @@ Para ejecutar los contenedores:
 ```bash
 $ docker run -d --name redis --network red_guestbook redis
 
-$ docker run -d -p 80:5000 --name guestbook --network red_guestbook iesgn/guestbook
+$ docker run -d -p 80:5000 --name guestbook --network red_guestbook masalinas/guestbook
 ```
 
 Algunas observaciones:

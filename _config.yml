@@ -1,7 +1,7 @@
 
-remote_theme: pmarsceill/just-the-docs 
+remote_theme: pmarsceill/just-the-docs
 title: Docker
-description: Curso "Introducción a  docker" para el CEP de Zafra - Abril 2021
+description: Curso "Introducción a docker"
 color_scheme: nil
 
 earch_enabled: true
@@ -32,7 +32,7 @@ search:
 # Aux links for the upper right navigation
 aux_links:
   "Accede al repositorio en GitHub":
-    - "//github.com/iesgn/curso_docker_2021"
+    - "//github.com/masalinas/curso_docker_2021"
 
 # Back to top link
 back_to_top: true
