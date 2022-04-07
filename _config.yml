@@ -39,3 +39,5 @@ back_to_top: true
 back_to_top_text: Inicio
 
 footer_content: "Esta documentación tiene licencia <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU General Public License v2.0</a>"
+
+theme: jekyll-theme-tactile
