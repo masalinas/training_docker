@@ -32,7 +32,7 @@ search:
 # Aux links for the upper right navigation
 aux_links:
   "Accede al repositorio en GitHub":
-    - "//github.com/masalinas/curso_docker_2021"
+    - "//github.com/masalinas/training_docker"
 
 # Back to top link
 back_to_top: true

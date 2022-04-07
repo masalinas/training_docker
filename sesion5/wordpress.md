@@ -9,7 +9,7 @@ parent: Escenarios multicontenedor
 
 En este ejemplo vamos a desplegar con docker-compose la aplicación WordPress + MariaDB, que estudiamos en el módulo de redes: [Ejemplo 3: Despliegue de Wordpress + mariadb ](../sesion4/wordpress.html).
 
-Puedes encontrar los ficheros `docker-compose.yml` en este [directorio](https://github.com/masalinas/curso_docker_2021/tree/main/ejemplos/sesion5/ejemplo3) del repositorio. 
+Puedes encontrar los ficheros `docker-compose.yml` en este [directorio](https://github.com/masalinas/training_docker/tree/main/ejemplos/sesion5/ejemplo3) del repositorio.
 
 
 ## Utilizando volúmenes docker
